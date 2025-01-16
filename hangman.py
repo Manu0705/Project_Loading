@@ -71,3 +71,4 @@ def hangman():
 # Main program to run the Hangman game
 if __name__ == "__main__":
     hangman()
+    
