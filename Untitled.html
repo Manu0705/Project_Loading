@@ -1,0 +1,20 @@
+<b>Enter your password: </b><input type="password"id="a">
+<br>
+<br>
+<b>Confrim password password:</b> <input type="password"id="b">
+<p id="show"></p>
+<button onclick="match password()"><b>Submit</b>
+    <html><body></body><div style ="color:rgb(247, 17, 124)"></div>
+</body></html></button>
+<script>
+    function match password(){
+        var a=document.getElementsByid("a").value;
+        var b=document.getElementsByid("b").value;
+        if (a==b)
+        {
+            document.getElementsByid("show").innerhtml ="password create successfully";
+            document.getElementsByid("show").innerhtml ="password did not match";
+        }
+
+    }
+</script>
